@@ -1,0 +1,5 @@
+TODO:
+    Design a class called "Counter" to keep track of the number of instances created.
+        Implement a static field called "instanceCount" to count the number of objects created from this class.
+        Additionally, create a static method called "getInstanceCount()" to return the current count of instances.
+        Test this class by creating multiple instances and accessing the instance count.

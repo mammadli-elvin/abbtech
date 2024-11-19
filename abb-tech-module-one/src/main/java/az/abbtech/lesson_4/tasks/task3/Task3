@@ -1,0 +1,19 @@
+TODO:
+    Create a "Car" class. This class should have the following properties:
+        Brand (String)
+        Model (String)
+        Year of Production (int)
+        Fuel Type (String)
+        Speed (double)
+    Perform the following functions:
+        Constructor method:
+            When creating a Car object, create a constructor that takes the make, model, year, and fuel type information. Set speed to 0 by default.
+        A method called speed():
+            Increases the speed of the cart. Gets the amount of speed increase as a parameter.
+        A method called slow():
+            Decreases the speed of the cart. Gets the amount of speed reduction as a parameter.
+        A method called stop():
+            Resets the speed of the cart.
+        A method named checkSpeed():
+            Checks the speed of the cart and checks whether it is above a certain speed limit.
+            If the speed is over the limit, it gives the user a speeding warning.

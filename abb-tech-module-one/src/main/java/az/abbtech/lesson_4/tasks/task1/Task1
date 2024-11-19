@@ -1,0 +1,15 @@
+TODO:
+    Product Initialization
+    Create a Java class called "Product" with the following components:
+        Static Block:
+            Create a static block inside the class to initialize a static variable called "companyName" with a default value, such as "MyCompany".
+        Non-Static Block:
+            Create a non-static block (instance initializer) inside the class to initialize a non-static variable called "productID". Start the product ID from 1000 and increment it by 1 for each new product created.
+        Constructor:
+            Implement a constructor that takes the product name as an argument.
+            Inside the constructor, initialize a non-static variable called "productName" with the provided name.
+        Main Class:
+            Create a main class called "ProductTest" with a main method.
+            Inside the main method, prompt the user to enter the name of a product.
+            Instantiate an object of the "Product" class with the provided product name.
+            Print out the details of the product, including the company name, product ID, and product name.
