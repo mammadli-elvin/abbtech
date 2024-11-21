@@ -12,7 +12,7 @@ public class Task8 {
         int firstNumber = scanner.nextInt();
         System.out.println("Enter the second number: ");
         int secondNumber = scanner.nextInt();
-        System.out.println("Enter the operation: {+, -, *, /} ");
+        System.out.println("Enter the apply: {+, -, *, /} ");
         String operation = scanner.next();
         switch (operation) {
             case "+":
@@ -28,7 +28,7 @@ public class Task8 {
                 System.out.println(firstNumber / secondNumber);
                 break;
             default:
-                System.out.println("Invalid operation");
+                System.out.println("Invalid apply");
         }
 
     }

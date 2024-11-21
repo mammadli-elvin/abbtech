@@ -1,0 +1,30 @@
+TODO:
+    Requirements:
+    Abstract Class: Vehicle
+        Create an abstract class called Vehicle.
+    Add the following fields:
+        protected String brand - The brand of the vehicle.
+        protected int year - The manufacturing year of the vehicle.
+    Add a constructor to initialize the fields.
+    Add the following abstract methods:
+        void startEngine() - Method to start the vehicle’s engine.
+        void move() - Method for how the vehicle moves.
+    Concrete Classes:
+        Car and Bicycle
+    Create a class Car that extends Vehicle:
+        Implement startEngine() to print "The car's engine roars to life!".
+        Implement move() to print "The car drives down the road.".
+    Create a class Bicycle that also extends Vehicle:
+        Implement startEngine() to print "Bicycles don't have engines!".
+        Implement move() to print "The bicycle pedals along the path.".
+    Create the Main Class:
+        Define a Main class with the public static void main(String[] args) method.
+        Instantiate Vehicle Objects:
+            Create objects of Car and Bicycle using their constructors with appropriate values for brand and year.
+                Example: Create a Car object with the brand "Toyota" and year 2020.
+                Example: Create a Bicycle object with the brand "Giant" and year 2018.
+        Invoke Methods:
+            Call the startEngine() method on each object to see how each vehicle starts.
+            Call the move() method to see how each vehicle moves.
+        Display Output:
+            Print a blank line between each vehicle's output to keep things clear.

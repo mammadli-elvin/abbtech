@@ -1,0 +1,34 @@
+TODO:
+    Enum: CoffeeSize
+        Create an enum called CoffeeSize that has three sizes:
+            SMALL with a price of $2.5
+            MEDIUM with a price of $3.5
+            LARGE with a price of $4.5
+        Add a field price to store the price for each size.
+        Include a method double getPrice() to return the price of the coffee size.
+    Enum: CoffeeType
+        Create an enum called CoffeeType with options:
+            ESPRESSO
+            LATTE
+            CAPPUCCINO
+        Add a method String getDescription() that returns a description for each type:
+            ESPRESSO - "A strong coffee shot."
+            LATTE - "A smooth coffee with milk."
+            CAPPUCCINO - "A rich and foamy coffee."
+    Class: CoffeeOrder
+        Create a class called CoffeeOrder that contains:
+            private CoffeeType type - The type of coffee.
+            private CoffeeSize size - The size of the coffee.
+        Add a constructor to initialize type and size.
+        Add a method void printOrderDetails() that:
+            Prints the coffee type, description, size, and price.
+        Add a method double calculateTotal() that:
+            Returns the total cost of the coffee.
+    Create Coffee Orders:
+        Instantiate CoffeeOrder objects with different CoffeeType and CoffeeSize combinations to simulate different customer orders.
+        Display Order Details:
+            Call the printOrderDetails() method on each CoffeeOrder object to display the details of the order (type, description, size, and price).
+            Use calculateTotal() to get the total price for the coffee and display it.
+    NOTE:
+        There was no point in using total and it was equal to price in any time.
+        That's why I create int count field in CoffeeOrder class.
