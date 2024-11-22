@@ -1,27 +1,26 @@
 package az.abbtech;
 
-import az.abbtech.lesson_5.Operation;
-
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Scanner;
 
 public class Test {
 
     public static void main(String[] args) {
 
+//        forAndForEachDifference();
 
+    }
 
+    public static void forAndForEachDifference() {
 
+        String[] arr = {"Hello", "How", "are", "you"};
+        for(String str : arr) {
+            str = str.toUpperCase();
+        }
+        System.out.println(Arrays.asList(arr));
 
-
-//        int[] arr = {1,2,3,4,5,6,7,8,9};
-//        for(Iterator<Integer> i = Arrays.stream(arr).iterator(); i.hasNext(); ) {
-//            System.out.println(i.next());
-//        }
-
-
-
+        for(int i=0; i < arr.length; i++) {
+            arr[i] = arr[i].toUpperCase();
+        }
+        System.out.println(Arrays.asList(arr));
     }
 }

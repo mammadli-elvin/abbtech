@@ -1,4 +1,4 @@
-package az.abbtech.lesson_5;
+package az.abbtech.lesson_4;
 
 // TODO:
 //  Practice advanced enum features.
