@@ -1,4 +1,4 @@
-package az.abbtech.lesson_5;
+package az.abbtech.lesson_5.abstraction;
 
 public interface InterfaceAbstractionPet2 {
     public abstract void play();

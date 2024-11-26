@@ -1,4 +1,4 @@
-package az.abbtech.lesson_5;
+package az.abbtech.lesson_5.abstraction;
 
 public class Cat extends ClassAbstractionPet implements InterfaceAbstractionPet, InterfaceAbstractionPet2{
 

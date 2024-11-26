@@ -1,4 +1,4 @@
-package az.abbtech.lesson_5;
+package az.abbtech.lesson_5.abstraction;
 
 public class AbstractionMain {
     public static void main(String[] args) {

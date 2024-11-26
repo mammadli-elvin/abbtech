@@ -1,4 +1,4 @@
-package az.abbtech.lesson_5;
+package az.abbtech.lesson_5.abstraction;
 
 public abstract class ClassAbstractionPet {
     protected abstract void eat();

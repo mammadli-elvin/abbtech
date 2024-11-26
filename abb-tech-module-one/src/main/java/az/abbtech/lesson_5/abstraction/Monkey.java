@@ -1,4 +1,4 @@
-package az.abbtech.lesson_5;
+package az.abbtech.lesson_5.abstraction;
 
 public class Monkey extends ClassAbstractionPet {
     public Monkey(String name) {
