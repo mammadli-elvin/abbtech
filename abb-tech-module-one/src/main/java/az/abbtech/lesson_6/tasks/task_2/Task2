@@ -1,0 +1,4 @@
+TODO:
+    Create a class named House with an inner class Room.
+    The Room class should have a method describeRoom() that prints "This is a cozy room.".
+    Instantiate Room in the main method and call describeRoom().

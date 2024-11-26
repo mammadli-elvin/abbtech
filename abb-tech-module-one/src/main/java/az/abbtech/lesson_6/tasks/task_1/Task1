@@ -1,0 +1,3 @@
+TODO:
+    Create an anonymous class extending the abstract class Animal with an abstract method makeSound().
+    Use the anonymous class to print "The animal makes a sound".

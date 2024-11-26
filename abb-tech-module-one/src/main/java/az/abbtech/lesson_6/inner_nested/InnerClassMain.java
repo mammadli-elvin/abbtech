@@ -7,7 +7,7 @@ public class InnerClassMain {
         OuterClass outerClass = new OuterClass("instanceField");
         OuterClass.InnerClass innerClass = outerClass.new InnerClass();
 
-        OuterClass.NestedClass nestedClass = new OuterClass.NestedClass("name");
+        OuterClass.NestedClass nestedClass = new OuterClass.NestedClass();
     }
 
 }
