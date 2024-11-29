@@ -1,0 +1,28 @@
+TODO:
+    Building a Student and Teacher Management System with a Generic Class
+    Design and implement a student and teacher management system using Object-Oriented Programming principles in Java.
+    Utilize a generic class to store and manage both students and teachers in the system. The system should include the following functionalities:
+        Addition:
+            Allow the addition of new students and teachers to the system.
+        Removal:
+            Enable the removal of students and teachers from the system.
+        Search:
+            Provide the ability to search for students and teachers by their name or ID.
+        Display:
+            Allow the display of all students and teachers enrolled in the system.
+        Uniqueness:
+            Ensure that each student and teacher has a unique ID.
+        Classes:
+            Implement appropriate classes such as Student, Teacher, Manager, etc., with suitable attributes and methods.
+        Generic Storage:
+            Utilize a generic class to store the students and teachers in the system.
+    Your implementation should demonstrate good OOP practices like encapsulation, inheritance, and polymorphism.
+    Additionally, consider error handling and input validation to ensure the robustness of your system.
+        1.Student and teacher classes should have personal id, name and age elements.
+        2.The id should change as each element is added
+        3.The GenericStorage class must be a generic class
+            The addItem() method should add an item, the removeItem() method should be able to remove an item from the list of items,
+            searchItem() should be able to retrieve an item by id, and displayAllItems() should be able to display.
+        4.Use an array to count the elements
+        5.In the Main class, create GenericStorage and add Students and Teachers to it.
+        6.Finally, test the GenericStorage methods
