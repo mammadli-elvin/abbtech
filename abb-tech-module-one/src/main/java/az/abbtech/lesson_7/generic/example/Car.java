@@ -1,4 +1,4 @@
-package az.abbtech.lesson_7.generic;
+package az.abbtech.lesson_7.generic.example;
 
 public class Car<T extends Marka, V> {
     public T marka;

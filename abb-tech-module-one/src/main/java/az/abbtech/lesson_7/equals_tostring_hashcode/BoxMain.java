@@ -1,6 +1,6 @@
-package az.abbtech.lesson_7.equals;
+package az.abbtech.lesson_7.equals_tostring_hashcode;
 
-public class Main {
+public class BoxMain {
     public static void main(String[] args) {
         Box box1 = new Box("Red", 4);
         Box box2 = new Box("Blue", 3);

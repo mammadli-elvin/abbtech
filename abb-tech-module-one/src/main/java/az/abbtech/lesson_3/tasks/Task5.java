@@ -17,7 +17,7 @@ public class Task5 {
     public static void main(String[] args) {
         System.out.println("Enter string: ");
         String str = new Scanner(System.in).nextLine();
-        System.out.println("How many equals parts do you want to divide string: ");
+        System.out.println("How many equals_tostring_hashcode parts do you want to divide string: ");
         int n = new Scanner(System.in).nextInt();
 
         int length = str.length() / n;

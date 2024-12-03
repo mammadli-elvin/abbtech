@@ -1,4 +1,4 @@
-package az.abbtech.lesson_7.equals;
+package az.abbtech.lesson_7.equals_tostring_hashcode;
 
 public class Box {
     private String color;
@@ -30,7 +30,8 @@ public class Box {
         if (object == null) {
             return false;
         }
-        if (object instanceof Box box) {            return this.getColor().equals(box.getColor()) && this.getSize() == box.getSize();
+        if (object instanceof Box box) {
+            return this.getColor().equals(box.getColor()) && this.getSize() == box.getSize();
         }
         return false;
     }
