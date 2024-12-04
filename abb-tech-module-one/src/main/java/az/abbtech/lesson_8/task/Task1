@@ -1,0 +1,29 @@
+TODO:
+    You are tasked with creating a mini library management system. Implement the following functionalities using appropriate Java Collections:
+    1. Track Books in the Library:
+        Use a List to store the books in the library. Each book should have the following attributes:
+            Title (String)
+            Author (String)
+            ISBN (String)
+    2. Track Borrow Requests:
+        Use a Queue to handle book borrow requests. Each request should store:
+            Borrower Name (String)
+            Book ISBN (String)
+    3. Track Unique Borrowers:
+        Use a Set to store the names of borrowers who have borrowed at least one book.
+    Tasks:
+        1. Add Books to the Library:
+            Create a method addBook(String title, String author, String isbn) to add books to the library's book list.
+        2. List All Books:
+            Create a method listBooks() to display all the books in the library.
+        3. Add Borrow Requests:
+            Create a method addBorrowRequest(String borrowerName, String isbn) to add a borrow request to the queue.
+        4. Process Borrow Requests:
+            Create a method processRequest() that processes the next borrow request in the queue.
+                If the book exists in the library, mark it as borrowed (remove from the list).
+                Add the borrower's name to the Set of unique borrowers.
+        5. List Unique Borrowers:
+            Create a method listBorrowers() to display all unique borrowers.
+        6. Handle Edge Cases:
+            If a borrow request is made for a book that doesn’t exist, display an appropriate message.
+            If a borrow request is processed when the queue is empty, display an appropriate message.

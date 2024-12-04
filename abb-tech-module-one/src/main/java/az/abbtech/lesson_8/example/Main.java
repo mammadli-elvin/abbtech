@@ -1,4 +1,4 @@
-package az.abbtech.lesson_8;
+package az.abbtech.lesson_8.example;
 
 import java.util.HashSet;
 import java.util.LinkedList;
