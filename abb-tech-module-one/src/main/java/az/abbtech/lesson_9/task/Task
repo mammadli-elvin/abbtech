@@ -1,0 +1,19 @@
+TODO:
+    Student Grade Management
+    You are required to create a program to manage students and their grades using Java. The program should allow:
+        1. Storing student data:
+            Use a Map where the key is the student's name (String) and the value is the Student object.
+        2. Student Sorting:
+            Implement the Comparable interface in the Student class to sort students by their total grades in descending order.
+            Create a Comparator to sort students alphabetically by their names.
+        3. Displaying Data: Print the students' details sorted by:
+            a. Total grades (using the natural order from Comparable).
+            b. Name (using the custom Comparator).
+    Class Design:
+        Student Class:
+            Fields: name (String), mathGrade, scienceGrade, and englishGrade (all integers).
+            Method: int getTotalGrade() to calculate the total of all grades.
+    Requirements:
+        1. Implement the Comparable interface for sorting by total grades.
+        2. Write a Comparator class for sorting alphabetically.
+        3. Use TreeMap or Collections.sort() for displaying sorted data.
