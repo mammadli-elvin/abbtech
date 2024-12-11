@@ -1,0 +1,26 @@
+TODO:
+    You are tasked with implementing a simple Movie Management System in Java using collections, streams, and lambdas.
+    The system should allow users to perform various operations such as adding movies, searching for movies, and displaying the movie inventory.
+        1. Movie Class:
+            Define a Movie class with attributes:
+                title (String)
+                director (String)
+                genre (String)
+                releaseYear (int).
+            Implement appropriate constructors and methods to access these attributes.
+        2. MovieLibrary Class:
+            Create a MovieLibrary class to manage a collection of movies. Use an appropriate collection (e.g., ArrayList) to store movies.
+            Implement the following methods:
+                1. Add a movie to the library.
+                2. Remove a movie from the library.
+                3. Search for movies by title, director, or genre.
+                4. Display all movies sorted by title, director, or release year.
+                5. Calculate the average release year of all movies in the library.
+                6. Count the number of movies in the library.
+        3. Lambdas and Streams:
+            Utilize lambdas and streams wherever applicable for concise and efficient code.
+            Use stream operations like filter(), mapToInt(), sorted(), collect(), etc., to perform operations on the movie collection.
+        4. Example and Testing:
+            Provide an example in the main method to demonstrate the functionalities of the MovieLibrary class.
+            Test various functionalities such as adding movies, searching for movies, and displaying the movie inventory to ensure correctness.
+

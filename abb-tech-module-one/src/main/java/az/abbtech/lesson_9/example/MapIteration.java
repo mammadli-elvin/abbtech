@@ -1,4 +1,4 @@
-package az.abbtech;
+package az.abbtech.lesson_9.example;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class Test {
+public class MapIteration {
     public static void main(String[] args) {
 
         Map<Integer, String> regions = new HashMap<>();
