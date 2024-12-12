@@ -1,4 +1,4 @@
-package az.abbtech.lesson10.example;
+package az.abbtech.lesson_10.example;
 
 @FunctionalInterface
 public interface CustomFunctionalInterface<T, U, R> {

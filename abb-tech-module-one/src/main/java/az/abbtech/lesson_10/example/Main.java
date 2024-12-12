@@ -1,4 +1,4 @@
-package az.abbtech.lesson10.example;
+package az.abbtech.lesson_10.example;
 
 public class Main {
     public static void main(String[] args) {

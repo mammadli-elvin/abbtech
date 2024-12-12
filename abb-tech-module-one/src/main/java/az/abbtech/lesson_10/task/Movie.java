@@ -1,4 +1,4 @@
-package az.abbtech.lesson10.task;
+package az.abbtech.lesson_10.task;
 
 import java.util.Objects;
 

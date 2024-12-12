@@ -1,5 +1,7 @@
 package az.abbtech.lesson_9.lesson;
 
+import java.util.Comparator;
+
 public class Student implements Comparable<Student> {
     private String name;
     private Integer age;
@@ -25,6 +27,7 @@ public class Student implements Comparable<Student> {
         this.age = age;
     }
 
+
     @Override
     public boolean equals(Object obj) {
         return obj instanceof Student && ((Student) obj).getName().equals(name) && ((Student) obj).getAge() == age;
@@ -35,9 +38,9 @@ public class Student implements Comparable<Student> {
         return this.name.hashCode();
     }
 
-    @Override
+    @Override   // Comparable
     public int compareTo(Student student) {
-        return (this.age < student.age) ? -1 : ((this.age == student.age) ? 0 : 1);
+        return this.age.compareTo(student.age);
     }
 
     @Override
