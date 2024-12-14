@@ -58,6 +58,16 @@ public class StreamMain {
                 new Computer("Mac", List.of("G", "H", "I"))
                 );
 
+        List<String> allModelsOfComputerByFlatMap = computerList.stream()
+                .flatMap(computer -> computer.getModels().stream())
+                .toList();
+        System.out.println(allModelsOfComputerByFlatMap);
+
+        List<List<String>> allModelsOfComputerByMap = computerList.stream()
+                .map(computer -> computer.getModels().stream().toList())
+                .toList();
+        System.out.println(allModelsOfComputerByMap);
+
 
     }
 }
