@@ -9,9 +9,7 @@ public class SquareCalculator {
         Optional<Integer> number = Optional.empty();
 
         Scanner scanner = new Scanner(System.in);
-
         while (number.isEmpty()) {
-
             System.out.println("Hello user, please enter an integer to print the square: ");
             String input = scanner.nextLine();
             try {
@@ -30,6 +28,4 @@ public class SquareCalculator {
             throw new InvalidIntegerInputException("Invalid input. Please enter a valid integer.");
         }
     }
-
-
 }
