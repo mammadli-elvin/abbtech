@@ -1,0 +1,7 @@
+TODO:
+    Create a Custom Exception Class in Java Write a Java program that defines a custom exception class called InvalidInputException.
+    This exception should be raised when a user inputs a value that is not within a specified range. Your program should include:
+        1. A custom exception class InvalidInputException that extends the built-in Exception class.
+        2. A method or a block of code that takes user input for a specific parameter (for example, age or temperature)
+        and throws the InvalidInputException if the input is not within a predefined range.
+        3. A demonstration of using this custom exception class in a try-catch block to handle the thrown exception.

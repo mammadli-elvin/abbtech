@@ -1,0 +1,4 @@
+TODO:
+    Create a program that reads an integer from the user and prints its square.
+    However, if the user enters a non-integer input, handle an exception and prompt the user to enter a valid integer.
+    (This process should continue until the user enters an integer)
