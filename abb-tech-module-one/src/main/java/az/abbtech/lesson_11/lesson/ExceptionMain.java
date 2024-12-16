@@ -1,8 +1,5 @@
 package az.abbtech.lesson_11.lesson;
 
-import java.io.IOException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class ExceptionMain {
