@@ -1,0 +1,31 @@
+TODO:
+    Create a Java program that performs basic file operations: reading from a file, appending new data to a file.
+    Initial Setup:
+        Create a text file named students.txt with the following content:
+            101,ARIF,80
+        Each line contains a StudentID, Name, and Score separated by commas.
+    Task Requirements:
+        1. Read the File:
+            Write a method that reads all the student records from the students.txt file and displays them in the following format:
+        2. Append to the File:
+            Write a method to append a new student record to the file.
+                For example, appending:
+                    102,SARA,75
+                After appending:
+                    101,ARIF,80
+                    102,SARA,75
+        3. Error Handling:
+            Ensure proper exception handling for cases such as file not found, read/write errors, or invalid data.
+    Main Program:
+        Create a menu-driven program that allows the user to:
+            View all student records.
+            Append a new student record.
+    EXAMPLE VIEW AFTER RUNNING CODE:
+        Menu:
+        1. View all records
+        2. Overwrite file with new records
+        3. Append a new record
+        4. Exit
+        Enter your choice: 1
+        StudentID: 101, Name: ARIF, Score: 80
+        StudentID: 102, Name: SARA, Score: 75

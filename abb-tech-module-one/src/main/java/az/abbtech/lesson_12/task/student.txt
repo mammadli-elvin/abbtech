@@ -1,0 +1,3 @@
+StudentID: 100, Name: Elvin, Score: 100.0
+StudentID: 101, Name: Arif, Score: 99.0
+StudentID: 102, Name: Kerim, Score: 98.0
