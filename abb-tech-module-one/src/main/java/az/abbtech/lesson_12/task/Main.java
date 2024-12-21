@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.Scanner;
 
 public class Main {
-    private static final File FILE = new File("src\\main\\java\\az\\abbtech\\lesson_12\\task\\student.txt");    // Setting relative path for encrypting user hierarchy
+    private static final File FILE = new File("src\\main\\java\\az\\abbtech\\lesson_12\\tasks\\student.txt");    // Setting relative path for encrypting user hierarchy
 
     public static void main(String[] args) {
         System.out.println("Hello User!");

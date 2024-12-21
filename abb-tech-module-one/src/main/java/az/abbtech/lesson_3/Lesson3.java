@@ -23,7 +23,7 @@ import java.util.Scanner;
 
 public class Lesson3 {
     public static void main(String[] args) {
-//        Task
+//        Task1
         System.out.println("TASK1");
         String text = "Hello, World!";
         System.out.println("Enter index of the starting indicates: ");
