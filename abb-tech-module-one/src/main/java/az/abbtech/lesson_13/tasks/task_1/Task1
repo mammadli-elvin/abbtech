@@ -1,0 +1,13 @@
+TODO:
+    Singleton Pattern - Simple Counter
+    Objective: Implement a Singleton class that tracks the number of times a method is called.
+    Instructions:
+        1. Create a class CallTracker that follows the Singleton pattern.
+        2. The class should:
+            Have a private static instance of itself.
+            Provide a public static method to get the instance.
+            Have a private constructor.
+        3. Add a method increment() that increases a counter and prints the current count.
+            CallTracker tracker = CallTracker.getInstance();
+            tracker.increment(); // Output: Call count: 1
+            tracker.increment(); // Output: Call count: 2
